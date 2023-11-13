@@ -37,6 +37,7 @@ jobs:
           export CLANG_TRIPLE=aarch64-linux-gnu-
           export CROSS_COMPILE=aarch64-linux-android-
           export CROSS_COMPILE_ARM32=arm-linux-androideabi-
+          export HOSTCC=clang
           output_dir=out
           pushd oneplus_msm8998
           echo "CONFIG_KPROBES=y
