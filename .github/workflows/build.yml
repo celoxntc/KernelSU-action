@@ -1,4 +1,4 @@
-name: Build KernelSU For OnePlus6(enchilada)
+name: Build KernelSU For OnePlus5
 
 on:
   workflow_dispatch:
